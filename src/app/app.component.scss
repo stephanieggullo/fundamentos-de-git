@@ -8,13 +8,18 @@
 }
 
 .input {
-    width: 60px;
+    width: 40px;
     height: 60px;
     font-size: 24px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+    border-radius: 10px;
+    outline: none;
 }
 
 .title {
     font-size: 80px;
+    color: rgb(255, 38, 0);
 }
 
 .text {
