@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'git-test';
+
+  moodSelected: string = '';
+  constructor(){}
+
+  selectOption( face: string ) {
+    this.moodSelected = face;
+  }
 }
